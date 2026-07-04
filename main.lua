@@ -105,6 +105,20 @@ MainTab:CreateButton({
         })
     end
 })
+
+MainTab:CreateButton({
+    Name = "Hermanos",
+    Callback = function()
+      getgenv().script_mode = "PVP" -- PVP, FARM
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hermanos-dev/hermanos-hub/refs/heads/main/Loader.lua"))()
+      Rayfield:Notify({
+            Title = "Đã bật",
+            Content = "Rayfield hoạt động!",
+            Duration = 3
+        })
+    end
+})
+
  MainTab:CreateButton({
     Name = "onion13-pvp",
     Callback = function()
