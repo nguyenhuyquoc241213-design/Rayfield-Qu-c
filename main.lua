@@ -95,7 +95,7 @@ MainTab:CreateButton({
 local MainTab = Window:CreateTab("Blox fruit")
 
 MainTab:CreateButton({
-    Name = "Quantum",
+    Name = "Quantum - Farm",
     Callback = function()
       loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"))()
       Rayfield:Notify({
@@ -107,7 +107,7 @@ MainTab:CreateButton({
 })
 
 MainTab:CreateButton({
-    Name = "Hermanos",
+    Name = "Hermanos - Pvp",
     Callback = function()
       getgenv().script_mode = "PVP" -- PVP, FARM
 loadstring(game:HttpGet("https://raw.githubusercontent.com/hermanos-dev/hermanos-hub/refs/heads/main/Loader.lua"))()
@@ -120,7 +120,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/hermanos-dev/hermanos
 })
 
  MainTab:CreateButton({
-    Name = "Andepzai",
+    Name = "Andepzai - Farm",
     Callback = function()
       loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/refs/heads/main/AnDepZaiHubBeta.lua"))()
       Rayfield:Notify({
@@ -132,7 +132,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/hermanos-dev/hermanos
 })
 
 MainTab:CreateButton({
-    Name = "Draco",
+    Name = "Draco - Farm",
     Callback = function()
       loadstring(game:HttpGet("https://raw.githubusercontent.com/RealRyx/DracoMain/refs/heads/main/DracoHubMainV1.txt"))()
       Rayfield:Notify({
@@ -144,7 +144,7 @@ MainTab:CreateButton({
 })
 
 MainTab:CreateButton({
-    Name = "Xeter",
+    Name = "Xeter - Farm",
     Callback = function()
       getgenv().Version = "V4" 
 getgenv().Team = "Marines" 
@@ -158,7 +158,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/TlDinhKhoi/Xeter/refs
 })
 
 MainTab:CreateButton({
-    Name = "Gravity",
+    Name = "Gravity - Farm",
     Callback = function()
       loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-GravityHub/BloxFruit/refs/heads/main/Main.lua"))()
       Rayfield:Notify({
@@ -169,12 +169,10 @@ MainTab:CreateButton({
     end
 })
 
-local MainTab = Window:CreateTab("Mm2")
-
 MainTab:CreateButton({
-    Name = "Overdrive",
+    Name = "OMG - Farm",
     Callback = function()
-      loadstring(game:HttpGet("https://api.overdrivehub.xyz/v1/auth"))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()
       Rayfield:Notify({
             Title = "Đã bật",
             Content = "Rayfield hoạt động!",
